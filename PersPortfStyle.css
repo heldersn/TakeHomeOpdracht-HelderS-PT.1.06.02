@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #9c8584;
+}
+
+.Header {
+    background-color: #65424b;
+}
+
+.Navigatiebalk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+}
+
+.Logo {
+    font-size: 30px;
+    color: white;
+    font-family: 'Baskervville SC', serif;
+}
+
+.NavigatiebalkMenu {
+    display: flex;
+    font-size: 20px;
+}
+
+.NavigatiebalkMenu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.NavigatiebalkMenu a:hover {
+    color: #bf5091;
+}
+
+.HomeSectie, .OverMijSectie, .ProgrammeertalenSectie, .ProjectenSectie, .ContactSectie {
+    background-color: #bfaeab; /* Lichtere kleur dan #9c8584 */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.HomeSectie {
+    margin-top: 60px;
+    text-align: center;
+    line-height: 0.2;
+}
+
+.HomeSectie h1 {
+    font-family: 'Baskervville SC', serif;
+    font-size: 100px;
+    color: white;
+}
+
+.HomeSectie h2 {
+    font-size: 24px;
+    color: #65424b;
+}
+
+.OverMij-Foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Korte-Biografie {
+    margin: 20px 0;
+}
+
+.Korte-Biografie button {
+    padding: 10px 20px;
+    background-color: #65424b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Korte-Biografie button:hover {
+    background-color: #bf5091;
+}
+
+.GescholenBio {
+    display: none;
+}
+
+.ProgrammeertalenInhoud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Programmeertaal {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.ProjectenInhoud {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Project {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.ContactInfo h2, .ContactInfo h3 {
+    margin: 10px 0;
+}
+
+.ContactFormulier {
+    margin: 20px 0;
+}
+
+.ContactFormulier label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.ContactFormulier input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ContactFormulier button {
+    padding: 10px 20px;
+    background-color: #65424b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ContactFormulier button:hover {
+    background-color: #bf5091;
+}
